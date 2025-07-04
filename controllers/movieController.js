@@ -1,6 +1,6 @@
 // controllers/movieController.js
 const asyncHandler = require('express-async-handler');
-const Movie = require('../models/movie'); // Make sure file name is capitalized if that's how it's saved
+const Movie = require('../models/Movie'); // Make sure file name is capitalized if that's how it's saved
 
 // @desc    Fetch all movies
 // @route   GET /api/movies
