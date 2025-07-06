@@ -13,7 +13,7 @@ connectDB();
 const app = express();
 app.use(express.json()); // to accept JSON body
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://bongovia.netlify.app/',
   credentials: true,
 }));
 app.get('/', (req, res) => {
